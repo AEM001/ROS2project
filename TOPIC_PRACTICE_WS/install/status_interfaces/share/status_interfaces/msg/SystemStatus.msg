@@ -1,0 +1,1 @@
+/home/albert/practice/TOPIC_PRACTICE_WS/src/status_interfaces/msg/SystemStatus.msg

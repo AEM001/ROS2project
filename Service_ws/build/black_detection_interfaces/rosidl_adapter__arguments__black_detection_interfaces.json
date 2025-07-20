@@ -1,0 +1,8 @@
+{
+  "package_name": "black_detection_interfaces",
+  "non_idl_tuples": [
+    "/home/albert/practice/Service_ws/src/black_detection_interfaces:msg/BlackObject.msg",
+    "/home/albert/practice/Service_ws/src/black_detection_interfaces:msg/BlackObjectArray.msg",
+    "/home/albert/practice/Service_ws/src/black_detection_interfaces:srv/DetectBlackObjects.srv"
+  ]
+}

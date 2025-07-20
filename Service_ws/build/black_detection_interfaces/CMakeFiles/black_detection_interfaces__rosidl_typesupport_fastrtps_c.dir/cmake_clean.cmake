@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/black_detection_interfaces/msg/detail/black_object__type_support_c.cpp.o"
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/black_detection_interfaces/msg/detail/black_object__type_support_c.cpp.o.d"
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/black_detection_interfaces/msg/detail/black_object_array__type_support_c.cpp.o"
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/black_detection_interfaces/msg/detail/black_object_array__type_support_c.cpp.o.d"
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/black_detection_interfaces/srv/detail/detect_black_objects__type_support_c.cpp.o"
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/black_detection_interfaces/srv/detail/detect_black_objects__type_support_c.cpp.o.d"
+  "libblack_detection_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libblack_detection_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/black_detection_interfaces/msg/detail/black_object__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/black_detection_interfaces/msg/detail/black_object__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/black_detection_interfaces/msg/detail/black_object_array__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/black_detection_interfaces/msg/detail/black_object_array__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/black_detection_interfaces/srv/detail/detect_black_objects__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/black_detection_interfaces/srv/detail/detect_black_objects__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

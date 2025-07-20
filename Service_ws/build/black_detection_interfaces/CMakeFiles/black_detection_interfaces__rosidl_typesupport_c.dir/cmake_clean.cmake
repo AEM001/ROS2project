@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/black_detection_interfaces/msg/black_object__type_support.cpp.o"
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/black_detection_interfaces/msg/black_object__type_support.cpp.o.d"
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/black_detection_interfaces/msg/black_object_array__type_support.cpp.o"
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/black_detection_interfaces/msg/black_object_array__type_support.cpp.o.d"
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/black_detection_interfaces/srv/detect_black_objects__type_support.cpp.o"
+  "CMakeFiles/black_detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/black_detection_interfaces/srv/detect_black_objects__type_support.cpp.o.d"
+  "libblack_detection_interfaces__rosidl_typesupport_c.pdb"
+  "libblack_detection_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/black_detection_interfaces/msg/black_object__type_support.cpp"
+  "rosidl_typesupport_c/black_detection_interfaces/msg/black_object_array__type_support.cpp"
+  "rosidl_typesupport_c/black_detection_interfaces/srv/detect_black_objects__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/black_detection_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

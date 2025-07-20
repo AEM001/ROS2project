@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/status_subscriber/status_subscriber.egg-info
+writing ../../build/status_subscriber/status_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/status_subscriber/status_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../build/status_subscriber/status_subscriber.egg-info/entry_points.txt
+writing requirements to ../../build/status_subscriber/status_subscriber.egg-info/requires.txt
+writing top-level names to ../../build/status_subscriber/status_subscriber.egg-info/top_level.txt
+writing manifest file '../../build/status_subscriber/status_subscriber.egg-info/SOURCES.txt'
+reading manifest file '../../build/status_subscriber/status_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/status_subscriber/status_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build
+creating /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib
+creating /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber
+copying status_subscriber/subscription.py -> /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber
+copying status_subscriber/__init__.py -> /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber
+running install
+running install_lib
+creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber
+copying /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber/subscription.py -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber
+copying /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber/__init__.py -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber
+byte-compiling /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber/subscription.py to subscription.cpython-310.pyc
+byte-compiling /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/share/ament_index
+creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/share/ament_index/resource_index
+creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/share/ament_index/resource_index/packages
+copying resource/status_subscriber -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/share/ament_index/resource_index/packages
+copying package.xml -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/share/status_subscriber
+running install_egg_info
+Copying ../../build/status_subscriber/status_subscriber.egg-info to /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sys_status_sub script to /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/status_subscriber
+writing list of installed files to '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/install.log'

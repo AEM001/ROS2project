@@ -1,0 +1,6 @@
+source;share/black_detection_service/hook/pythonpath.ps1
+source;share/black_detection_service/hook/pythonpath.dsv
+source;share/black_detection_service/hook/pythonpath.sh
+source;share/black_detection_service/hook/ament_prefix_path.ps1
+source;share/black_detection_service/hook/ament_prefix_path.dsv
+source;share/black_detection_service/hook/ament_prefix_path.sh

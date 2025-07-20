@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ad4a2eb22fcd4581b578.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "black_detection_interfaces__py",
+					"jsonFile" : "directory-black_detection_interfaces__py-66e41f20907f373a9bdd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/albert/practice/Service_ws/build/black_detection_interfaces/black_detection_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "black_detection_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_black_detection_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_black_detection_interfaces_egg-44d8f4a8611d67e37341.json",
+					"name" : "ament_cmake_python_build_black_detection_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_black_detection_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_black_detection_interfaces-a11fd283000303ac104d.json",
+					"name" : "ament_cmake_python_copy_black_detection_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces-3fd635b8e6d12aecff83.json",
+					"name" : "black_detection_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__cpp-d704c09ac136f75eeb40.json",
+					"name" : "black_detection_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "black_detection_interfaces__py::@84eadd4c78c42e176a3b",
+					"jsonFile" : "target-black_detection_interfaces__py-b58bbfa80443c625de6e.json",
+					"name" : "black_detection_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_generator_c-5135ede7b4309449be23.json",
+					"name" : "black_detection_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_generator_py-c250c826d5dd12c6c0cd.json",
+					"name" : "black_detection_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_typesupport_c-e8e582704c5634ecb2fc.json",
+					"name" : "black_detection_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_typesupport_c__pyext-7d554827fb5757f300f6.json",
+					"name" : "black_detection_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_typesupport_cpp-6befbab55c665c0f3479.json",
+					"name" : "black_detection_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_typesupport_fastrtps_c-79a00d6df4b78c470ace.json",
+					"name" : "black_detection_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_typesupport_fastrtps_c__pyext-ec832df82e853941836d.json",
+					"name" : "black_detection_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_typesupport_fastrtps_cpp-934063a0129ee9be0456.json",
+					"name" : "black_detection_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_typesupport_introspection_c-2eea6cbd9e860256e34d.json",
+					"name" : "black_detection_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_typesupport_introspection_c__pyext-4a7e38f804f5ab42ce67.json",
+					"name" : "black_detection_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces__rosidl_typesupport_introspection_cpp-dce46b8b8697c24df118.json",
+					"name" : "black_detection_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "black_detection_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-black_detection_interfaces_uninstall-6e05bf8c901deb74b470.json",
+					"name" : "black_detection_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3c34ceda71c8fab1d31b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/albert/practice/Service_ws/build/black_detection_interfaces",
+		"source" : "/home/albert/practice/Service_ws/src/black_detection_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

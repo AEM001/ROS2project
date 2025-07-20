@@ -1,0 +1,58 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from black_detection_interfaces/srv/DetectBlackObjects.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Point32.idl"
+#include "sensor_msgs/msg/Image.idl"
+#include "std_msgs/msg/Header.idl"
+
+module black_detection_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "请求：检测黑色物体")
+    struct DetectBlackObjects_Request {
+      @verbatim (language="comment", text=
+        "输入图像")
+      sensor_msgs::msg::Image image;
+
+      @verbatim (language="comment", text=
+        "黑色阈值(0-255)，值越小检测越严格的黑色")
+      float black_threshold;
+
+      @verbatim (language="comment", text=
+        "最小检测面积(像素)")
+      float min_area;
+
+      @verbatim (language="comment", text=
+        "最大检测面积(像素)")
+      float max_area;
+    };
+    struct DetectBlackObjects_Response {
+      @verbatim (language="comment", text=
+        "响应：检测结果" "\n"
+        "时间戳和坐标系")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "检测到的黑色物体中心点坐标(像素坐标)")
+      sequence<geometry_msgs::msg::Point> centroids;
+
+      @verbatim (language="comment", text=
+        "检测到的黑色物体尺寸(宽度和高度)")
+      sequence<geometry_msgs::msg::Point32> sizes;
+
+      @verbatim (language="comment", text=
+        "检测到的黑色物体数量")
+      int32 count;
+
+      @verbatim (language="comment", text=
+        "检测是否成功")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "状态信息或错误描述")
+      string message;
+    };
+  };
+};

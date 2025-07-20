@@ -1,0 +1,1 @@
+/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces/rosidl_generator_py/status_interfaces/msg/_system_status_s.c

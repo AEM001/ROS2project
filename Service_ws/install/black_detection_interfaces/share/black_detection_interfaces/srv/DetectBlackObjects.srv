@@ -1,0 +1,15 @@
+# 请求：检测黑色物体
+sensor_msgs/Image image          # 输入图像
+float32 black_threshold          # 黑色阈值(0-255)，值越小检测越严格的黑色
+float32 min_area                 # 最小检测面积(像素)
+float32 max_area                 # 最大检测面积(像素)
+
+---
+
+# 响应：检测结果
+std_msgs/Header header           # 时间戳和坐标系
+geometry_msgs/Point[] centroids  # 检测到的黑色物体中心点坐标(像素坐标)
+geometry_msgs/Point32[] sizes    # 检测到的黑色物体尺寸(宽度和高度)
+int32 count                      # 检测到的黑色物体数量
+bool success                     # 检测是否成功
+string message                   # 状态信息或错误描述

@@ -1,0 +1,3 @@
+/home/albert/practice/Service_ws/build/black_detection_interfaces/rosidl_adapter/black_detection_interfaces:msg/BlackObject.idl
+/home/albert/practice/Service_ws/build/black_detection_interfaces/rosidl_adapter/black_detection_interfaces:msg/BlackObjectArray.idl
+/home/albert/practice/Service_ws/build/black_detection_interfaces/rosidl_adapter/black_detection_interfaces:srv/DetectBlackObjects.idl

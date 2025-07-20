@@ -1,0 +1,33 @@
+[0.458s] Invoking command in '/home/albert/practice/Service_ws/src/black_detection_service': PYTHONPATH=/home/albert/practice/Service_ws/build/black_detection_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/practice/Service_ws/install/black_detection_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/black_detection_service build --build-base /home/albert/practice/Service_ws/build/black_detection_service/build install --record /home/albert/practice/Service_ws/build/black_detection_service/install.log --single-version-externally-managed install_data
+[0.584s] running egg_info
+[0.585s] creating ../../build/black_detection_service/black_detection_service.egg-info
+[0.585s] writing ../../build/black_detection_service/black_detection_service.egg-info/PKG-INFO
+[0.586s] writing dependency_links to ../../build/black_detection_service/black_detection_service.egg-info/dependency_links.txt
+[0.586s] writing entry points to ../../build/black_detection_service/black_detection_service.egg-info/entry_points.txt
+[0.587s] writing requirements to ../../build/black_detection_service/black_detection_service.egg-info/requires.txt
+[0.587s] writing top-level names to ../../build/black_detection_service/black_detection_service.egg-info/top_level.txt
+[0.588s] writing manifest file '../../build/black_detection_service/black_detection_service.egg-info/SOURCES.txt'
+[0.589s] reading manifest file '../../build/black_detection_service/black_detection_service.egg-info/SOURCES.txt'
+[0.589s] writing manifest file '../../build/black_detection_service/black_detection_service.egg-info/SOURCES.txt'
+[0.590s] running build
+[0.590s] running build_py
+[0.590s] creating /home/albert/practice/Service_ws/build/black_detection_service/build
+[0.591s] creating /home/albert/practice/Service_ws/build/black_detection_service/build/lib
+[0.591s] creating /home/albert/practice/Service_ws/build/black_detection_service/build/lib/black_detection_service
+[0.591s] copying black_detection_service/__init__.py -> /home/albert/practice/Service_ws/build/black_detection_service/build/lib/black_detection_service
+[0.592s] running install
+[0.593s] running install_lib
+[0.594s] creating /home/albert/practice/Service_ws/install/black_detection_service/lib/python3.10/site-packages/black_detection_service
+[0.594s] copying /home/albert/practice/Service_ws/build/black_detection_service/build/lib/black_detection_service/__init__.py -> /home/albert/practice/Service_ws/install/black_detection_service/lib/python3.10/site-packages/black_detection_service
+[0.595s] byte-compiling /home/albert/practice/Service_ws/install/black_detection_service/lib/python3.10/site-packages/black_detection_service/__init__.py to __init__.cpython-310.pyc
+[0.595s] running install_data
+[0.595s] creating /home/albert/practice/Service_ws/install/black_detection_service/share/ament_index
+[0.595s] creating /home/albert/practice/Service_ws/install/black_detection_service/share/ament_index/resource_index
+[0.595s] creating /home/albert/practice/Service_ws/install/black_detection_service/share/ament_index/resource_index/packages
+[0.595s] copying resource/black_detection_service -> /home/albert/practice/Service_ws/install/black_detection_service/share/ament_index/resource_index/packages
+[0.595s] copying package.xml -> /home/albert/practice/Service_ws/install/black_detection_service/share/black_detection_service
+[0.595s] running install_egg_info
+[0.598s] Copying ../../build/black_detection_service/black_detection_service.egg-info to /home/albert/practice/Service_ws/install/black_detection_service/lib/python3.10/site-packages/black_detection_service-0.0.0-py3.10.egg-info
+[0.599s] running install_scripts
+[0.612s] writing list of installed files to '/home/albert/practice/Service_ws/build/black_detection_service/install.log'
+[0.636s] Invoked command in '/home/albert/practice/Service_ws/src/black_detection_service' returned '0': PYTHONPATH=/home/albert/practice/Service_ws/build/black_detection_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/practice/Service_ws/install/black_detection_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/black_detection_service build --build-base /home/albert/practice/Service_ws/build/black_detection_service/build install --record /home/albert/practice/Service_ws/build/black_detection_service/install.log --single-version-externally-managed install_data

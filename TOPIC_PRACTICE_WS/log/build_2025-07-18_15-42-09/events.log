@@ -1,0 +1,397 @@
+[0.000000] (-) TimerEvent: {}
+[0.000773] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.000812] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.003687] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.004372] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/albert/practice/TOPIC_PRACTICE_WS/src/status_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces'], 'cwd': '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'albert'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albert'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/albert/practice/TOPIC_PRACTICE_WS/src'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1964'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2075'), ('BUNDLED_DEBUGPY_PATH', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16118'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albert'), ('JOURNAL_STREAM', '8:28207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntumac:@/tmp/.ICE-unix/2047,unix/ubuntumac:/tmp/.ICE-unix/2047'), ('INVOCATION_ID', '626254a797cc4c798f634f7cbc3ee6cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-668fe537546acd99.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F6SJ92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-27fe56b2ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.080055] (-) TimerEvent: {}
+[0.179274] (status_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.180156] (-) TimerEvent: {}
+[0.281159] (-) TimerEvent: {}
+[0.287998] (status_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.295927] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.381476] (-) TimerEvent: {}
+[0.470881] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.481208] (status_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.481416] (-) TimerEvent: {}
+[0.482347] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.482868] (status_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.485696] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.581776] (-) TimerEvent: {}
+[0.602533] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.616983] (status_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.618024] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.618906] (status_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.629655] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.682102] (-) TimerEvent: {}
+[0.782972] (-) TimerEvent: {}
+[0.884139] (-) TimerEvent: {}
+[0.985339] (-) TimerEvent: {}
+[1.086951] (-) TimerEvent: {}
+[1.188965] (-) TimerEvent: {}
+[1.294218] (-) TimerEvent: {}
+[1.358316] (status_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.394509] (-) TimerEvent: {}
+[1.495249] (-) TimerEvent: {}
+[1.597689] (-) TimerEvent: {}
+[1.698190] (-) TimerEvent: {}
+[1.704941] (status_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.797267] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.798247] (-) TimerEvent: {}
+[1.803542] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.820185] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.898531] (-) TimerEvent: {}
+[1.911381] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.940655] (status_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[1.999836] (-) TimerEvent: {}
+[2.103164] (-) TimerEvent: {}
+[2.205936] (-) TimerEvent: {}
+[2.306567] (-) TimerEvent: {}
+[2.324018] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.406726] (-) TimerEvent: {}
+[2.507283] (-) TimerEvent: {}
+[2.562321] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.607404] (-) TimerEvent: {}
+[2.708217] (-) TimerEvent: {}
+[2.808966] (-) TimerEvent: {}
+[2.907155] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.909096] (-) TimerEvent: {}
+[2.933385] (status_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.939116] (status_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.975150] (status_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.975505] (status_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.975585] (status_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.975646] (status_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.997368] (status_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.011291] (-) TimerEvent: {}
+[3.046405] (status_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.103657] (status_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.104932] (status_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.109619] (-) TimerEvent: {}
+[3.117742] (status_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.210087] (-) TimerEvent: {}
+[3.257729] (status_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.289893] (status_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces\n'}
+[3.318517] (status_interfaces) CommandEnded: {'returncode': 0}
+[3.320439] (-) TimerEvent: {}
+[3.324482] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'build'}
+[3.324531] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'albert'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albert'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/albert/practice/TOPIC_PRACTICE_WS/src'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1964'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2075'), ('BUNDLED_DEBUGPY_PATH', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16118'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albert'), ('JOURNAL_STREAM', '8:28207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntumac:@/tmp/.ICE-unix/2047,unix/ubuntumac:/tmp/.ICE-unix/2047'), ('INVOCATION_ID', '626254a797cc4c798f634f7cbc3ee6cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-668fe537546acd99.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F6SJ92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-27fe56b2ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.402451] (status_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.420539] (-) TimerEvent: {}
+[3.521038] (-) TimerEvent: {}
+[3.621559] (-) TimerEvent: {}
+[3.722163] (-) TimerEvent: {}
+[3.822896] (-) TimerEvent: {}
+[3.860009] (status_interfaces) StdoutLine: {'line': b'[  3%] Built target status_interfaces__cpp\n'}
+[3.871391] (status_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.923260] (-) TimerEvent: {}
+[4.024367] (-) TimerEvent: {}
+[4.125015] (-) TimerEvent: {}
+[4.226009] (-) TimerEvent: {}
+[4.264809] (status_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o\x1b[0m\n'}
+[4.326178] (-) TimerEvent: {}
+[4.413692] (status_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.426553] (-) TimerEvent: {}
+[4.469581] (status_interfaces) StdoutLine: {'line': b'[ 12%] Built target status_interfaces__rosidl_generator_c\n'}
+[4.527829] (-) TimerEvent: {}
+[4.543666] (status_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_status_interfaces\n'}
+[4.555879] (status_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.627916] (-) TimerEvent: {}
+[4.728826] (-) TimerEvent: {}
+[4.829192] (-) TimerEvent: {}
+[4.850234] (status_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[4.929317] (-) TimerEvent: {}
+[5.029585] (-) TimerEvent: {}
+[5.129987] (-) TimerEvent: {}
+[5.230911] (-) TimerEvent: {}
+[5.332689] (-) TimerEvent: {}
+[5.434395] (-) TimerEvent: {}
+[5.535329] (-) TimerEvent: {}
+[5.637325] (-) TimerEvent: {}
+[5.738636] (-) TimerEvent: {}
+[5.839305] (-) TimerEvent: {}
+[5.940704] (-) TimerEvent: {}
+[6.024978] (status_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.040870] (-) TimerEvent: {}
+[6.142251] (-) TimerEvent: {}
+[6.205243] (status_interfaces) StdoutLine: {'line': b'[ 22%] Built target status_interfaces__rosidl_typesupport_cpp\n'}
+[6.242554] (-) TimerEvent: {}
+[6.247980] (status_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.342809] (-) TimerEvent: {}
+[6.449433] (-) TimerEvent: {}
+[6.550175] (-) TimerEvent: {}
+[6.651417] (-) TimerEvent: {}
+[6.752181] (-) TimerEvent: {}
+[6.853315] (-) TimerEvent: {}
+[6.955196] (-) TimerEvent: {}
+[7.057242] (-) TimerEvent: {}
+[7.158127] (-) TimerEvent: {}
+[7.260313] (-) TimerEvent: {}
+[7.305363] (status_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o\x1b[0m\n'}
+[7.360708] (-) TimerEvent: {}
+[7.462774] (-) TimerEvent: {}
+[7.564215] (-) TimerEvent: {}
+[7.666123] (-) TimerEvent: {}
+[7.773597] (-) TimerEvent: {}
+[7.874478] (-) TimerEvent: {}
+[7.980281] (-) TimerEvent: {}
+[8.081687] (-) TimerEvent: {}
+[8.189448] (-) TimerEvent: {}
+[8.293329] (-) TimerEvent: {}
+[8.394716] (-) TimerEvent: {}
+[8.495620] (-) TimerEvent: {}
+[8.601787] (-) TimerEvent: {}
+[8.710344] (-) TimerEvent: {}
+[8.811448] (-) TimerEvent: {}
+[8.916420] (-) TimerEvent: {}
+[9.037139] (-) TimerEvent: {}
+[9.139952] (-) TimerEvent: {}
+[9.239295] (status_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.253131] (-) TimerEvent: {}
+[9.353597] (-) TimerEvent: {}
+[9.395564] (status_interfaces) StdoutLine: {'line': b'[ 32%] Built target status_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.402850] (status_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.453705] (-) TimerEvent: {}
+[9.554045] (-) TimerEvent: {}
+[9.654588] (-) TimerEvent: {}
+[9.755255] (-) TimerEvent: {}
+[9.856755] (-) TimerEvent: {}
+[9.957896] (-) TimerEvent: {}
+[9.964333] (status_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o\x1b[0m\n'}
+[10.058018] (-) TimerEvent: {}
+[10.094233] (status_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.158129] (-) TimerEvent: {}
+[10.191069] (status_interfaces) StdoutLine: {'line': b'[ 41%] Built target status_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.202715] (status_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.258398] (-) TimerEvent: {}
+[10.358737] (-) TimerEvent: {}
+[10.459052] (-) TimerEvent: {}
+[10.547373] (status_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.559216] (-) TimerEvent: {}
+[10.609575] (status_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.653446] (status_interfaces) StdoutLine: {'line': b'[ 51%] Built target status_interfaces__rosidl_typesupport_c\n'}
+[10.659369] (-) TimerEvent: {}
+[10.665828] (status_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.759506] (-) TimerEvent: {}
+[10.860323] (-) TimerEvent: {}
+[10.960625] (-) TimerEvent: {}
+[11.060910] (-) TimerEvent: {}
+[11.161258] (-) TimerEvent: {}
+[11.216016] (status_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o\x1b[0m\n'}
+[11.261478] (-) TimerEvent: {}
+[11.362244] (-) TimerEvent: {}
+[11.463067] (-) TimerEvent: {}
+[11.563668] (-) TimerEvent: {}
+[11.664429] (-) TimerEvent: {}
+[11.765246] (-) TimerEvent: {}
+[11.865712] (-) TimerEvent: {}
+[11.966087] (-) TimerEvent: {}
+[12.066493] (-) TimerEvent: {}
+[12.180784] (-) TimerEvent: {}
+[12.281430] (-) TimerEvent: {}
+[12.365414] (status_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.381536] (-) TimerEvent: {}
+[12.482125] (-) TimerEvent: {}
+[12.514980] (status_interfaces) StdoutLine: {'line': b'[ 61%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[12.554683] (status_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.582175] (-) TimerEvent: {}
+[12.682663] (-) TimerEvent: {}
+[12.783294] (-) TimerEvent: {}
+[12.884498] (-) TimerEvent: {}
+[12.985217] (-) TimerEvent: {}
+[13.028053] (status_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o\x1b[0m\n'}
+[13.086558] (-) TimerEvent: {}
+[13.187249] (-) TimerEvent: {}
+[13.288291] (-) TimerEvent: {}
+[13.389235] (-) TimerEvent: {}
+[13.490579] (-) TimerEvent: {}
+[13.591537] (-) TimerEvent: {}
+[13.692248] (-) TimerEvent: {}
+[13.793243] (-) TimerEvent: {}
+[13.894310] (-) TimerEvent: {}
+[13.995848] (-) TimerEvent: {}
+[14.097379] (-) TimerEvent: {}
+[14.201827] (-) TimerEvent: {}
+[14.206717] (status_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.302423] (-) TimerEvent: {}
+[14.370787] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target status_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[14.403282] (-) TimerEvent: {}
+[14.503746] (-) TimerEvent: {}
+[14.604202] (-) TimerEvent: {}
+[14.705139] (-) TimerEvent: {}
+[14.805915] (-) TimerEvent: {}
+[14.906595] (-) TimerEvent: {}
+[15.007169] (-) TimerEvent: {}
+[15.050254] (status_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[15.051161] (status_interfaces) StdoutLine: {'line': b'creating status_interfaces.egg-info\n'}
+[15.051516] (status_interfaces) StdoutLine: {'line': b'writing status_interfaces.egg-info/PKG-INFO\n'}
+[15.051795] (status_interfaces) StdoutLine: {'line': b'writing dependency_links to status_interfaces.egg-info/dependency_links.txt\n'}
+[15.052047] (status_interfaces) StdoutLine: {'line': b'writing top-level names to status_interfaces.egg-info/top_level.txt\n'}
+[15.053333] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[15.062873] (status_interfaces) StdoutLine: {'line': b"reading manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[15.068511] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[15.107278] (-) TimerEvent: {}
+[15.109828] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_build_status_interfaces_egg\n'}
+[15.136000] (status_interfaces) StdoutLine: {'line': b'[ 70%] Built target status_interfaces\n'}
+[15.160724] (status_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.207429] (-) TimerEvent: {}
+[15.308352] (-) TimerEvent: {}
+[15.409227] (-) TimerEvent: {}
+[15.510628] (-) TimerEvent: {}
+[15.613849] (-) TimerEvent: {}
+[15.715766] (-) TimerEvent: {}
+[15.820790] (-) TimerEvent: {}
+[15.923084] (-) TimerEvent: {}
+[16.033729] (-) TimerEvent: {}
+[16.136354] (-) TimerEvent: {}
+[16.237063] (-) TimerEvent: {}
+[16.338084] (-) TimerEvent: {}
+[16.361959] (status_interfaces) StdoutLine: {'line': b'[ 74%] Built target status_interfaces__py\n'}
+[16.438195] (-) TimerEvent: {}
+[16.526505] (status_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o\x1b[0m\n'}
+[16.538366] (-) TimerEvent: {}
+[16.639163] (-) TimerEvent: {}
+[16.740000] (-) TimerEvent: {}
+[16.841978] (-) TimerEvent: {}
+[16.942754] (-) TimerEvent: {}
+[17.044552] (-) TimerEvent: {}
+[17.146342] (-) TimerEvent: {}
+[17.248091] (-) TimerEvent: {}
+[17.281047] (status_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/status_interfaces/libstatus_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[17.348204] (-) TimerEvent: {}
+[17.348820] (status_interfaces) StdoutLine: {'line': b'[ 80%] Built target status_interfaces__rosidl_generator_py\n'}
+[17.379219] (status_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.448339] (-) TimerEvent: {}
+[17.472974] (status_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[17.504902] (status_interfaces) StdoutLine: {'line': b'[ 87%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.535596] (status_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.548437] (-) TimerEvent: {}
+[17.649115] (-) TimerEvent: {}
+[17.750619] (-) TimerEvent: {}
+[17.789532] (status_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[17.830498] (status_interfaces) StdoutLine: {'line': b'[ 93%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[17.850630] (-) TimerEvent: {}
+[17.894011] (status_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.950885] (-) TimerEvent: {}
+[18.051423] (-) TimerEvent: {}
+[18.085454] (status_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.126565] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces__rosidl_typesupport_c__pyext\n'}
+[18.151540] (-) TimerEvent: {}
+[18.173389] (status_interfaces) CommandEnded: {'returncode': 0}
+[18.186987] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'install'}
+[18.217873] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces'], 'cwd': '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'albert'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albert'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/albert/practice/TOPIC_PRACTICE_WS/src'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1964'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2075'), ('BUNDLED_DEBUGPY_PATH', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16118'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albert'), ('JOURNAL_STREAM', '8:28207'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntumac:@/tmp/.ICE-unix/2047,unix/ubuntumac:/tmp/.ICE-unix/2047'), ('INVOCATION_ID', '626254a797cc4c798f634f7cbc3ee6cc'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-668fe537546acd99.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F6SJ92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-27fe56b2ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.234645] (status_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.237806] (status_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.239259] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces\n'}
+[18.251688] (-) TimerEvent: {}
+[18.258684] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h\n'}
+[18.268146] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h\n'}
+[18.298403] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h\n'}
+[18.317808] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.327617] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h\n'}
+[18.340064] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/library_path.sh\n'}
+[18.348387] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/library_path.dsv\n'}
+[18.351796] (-) TimerEvent: {}
+[18.355313] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[18.370051] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.384451] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[18.397128] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.408580] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp\n'}
+[18.418701] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp\n'}
+[18.424010] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp\n'}
+[18.437358] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[18.443358] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[18.451897] (-) TimerEvent: {}
+[18.452476] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp\n'}
+[18.460304] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.472062] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.478746] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.485026] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh\n'}
+[18.495296] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv\n'}
+[18.501274] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[18.506859] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[18.515781] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[18.521472] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[18.532119] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py\n'}
+[18.541743] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[18.552116] (-) TimerEvent: {}
+[18.554404] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.559738] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.571598] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so\n'}
+[18.580920] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py\n'}
+[18.589995] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py\n'}
+[18.599477] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c\n'}
+[18.610067] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[18.618508] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[18.624165] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[18.633900] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[18.634282] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[18.635025] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[18.635078] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl\n'}
+[18.644283] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg\n'}
+[18.651209] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces\n'}
+[18.652104] (-) TimerEvent: {}
+[18.661133] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces\n'}
+[18.666982] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh\n'}
+[18.676756] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv\n'}
+[18.685416] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/path.sh\n'}
+[18.691225] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/path.dsv\n'}
+[18.700239] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/local_setup.bash\n'}
+[18.706088] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/local_setup.sh\n'}
+[18.715745] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/local_setup.zsh\n'}
+[18.721646] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/local_setup.dsv\n'}
+[18.728810] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/package.dsv\n'}
+[18.738362] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces\n'}
+[18.747087] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[18.752250] (-) TimerEvent: {}
+[18.755519] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.770413] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.800867] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.808675] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.817380] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[18.825329] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[18.833247] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake\n'}
+[18.839817] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake\n'}
+[18.848964] (status_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/package.xml\n'}
+[18.852363] (-) TimerEvent: {}
+[18.857808] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so\n'}
+[18.859303] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""\n'}
+[18.859507] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[18.860004] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.860144] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[18.860459] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.860592] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so\n'}
+[18.860910] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[18.861035] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.861399] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[18.861569] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[18.861947] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.862095] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so\n'}
+[18.862379] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[18.917317] (status_interfaces) StdoutLine: {'line': b"Listing '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...\n"}
+[18.917462] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py'...\n"}
+[18.917530] (status_interfaces) StdoutLine: {'line': b"Listing '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...\n"}
+[18.917565] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py'...\n"}
+[18.917595] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py'...\n"}
+[18.921436] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so\n'}
+[18.921925] (status_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""\n'}
+[18.921977] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake\n'}
+[18.923090] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.923828] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[18.924606] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[18.925421] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[18.929321] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[18.931970] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[18.932394] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[18.932622] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake\n'}
+[18.933621] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[18.935154] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[18.935314] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[18.936089] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[18.936182] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[18.936310] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[18.936360] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake\n'}
+[18.936769] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[18.940750] (status_interfaces) CommandEnded: {'returncode': 0}
+[18.955856] (-) TimerEvent: {}
+[18.987135] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 0}
+[18.988320] (-) EventReactorShutdown: {}

@@ -1,0 +1,202 @@
+[0.004s] Invoking command in '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/albert/practice/TOPIC_PRACTICE_WS/src/status_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces
+[0.179s] -- The C compiler identification is GNU 11.4.0
+[0.287s] -- The CXX compiler identification is GNU 11.4.0
+[0.295s] -- Detecting C compiler ABI info
+[0.470s] -- Detecting C compiler ABI info - done
+[0.481s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.482s] -- Detecting C compile features
+[0.482s] -- Detecting C compile features - done
+[0.485s] -- Detecting CXX compiler ABI info
+[0.602s] -- Detecting CXX compiler ABI info - done
+[0.616s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.617s] -- Detecting CXX compile features
+[0.618s] -- Detecting CXX compile features - done
+[0.629s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.358s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.704s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.797s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.803s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.819s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.911s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.940s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.324s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.562s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.907s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.933s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.938s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.974s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.975s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.975s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.975s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.997s] -- Found PythonExtra: .so  
+[3.046s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.103s] -- Added test 'lint_cmake' to check CMake code style
+[3.104s] -- Added test 'xmllint' to check XML markup files
+[3.117s] -- Configuring done
+[3.257s] -- Generating done
+[3.289s] -- Build files have been written to: /home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces
+[3.319s] Invoked command in '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/albert/practice/TOPIC_PRACTICE_WS/src/status_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces
+[3.324s] Invoking command in '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces -- -j2 -l2
+[3.402s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.860s] [  3%] Built target status_interfaces__cpp
+[3.871s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.264s] [  9%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[4.413s] [ 12%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[4.469s] [ 12%] Built target status_interfaces__rosidl_generator_c
+[4.543s] [ 12%] Built target ament_cmake_python_symlink_status_interfaces
+[4.555s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.850s] [ 19%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[6.027s] [ 22%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[6.205s] [ 22%] Built target status_interfaces__rosidl_typesupport_cpp
+[6.247s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.305s] [ 29%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[9.252s] [ 32%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.395s] [ 32%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[9.402s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.964s] [ 38%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[10.094s] [ 41%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.191s] [ 41%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[10.202s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.547s] [ 48%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[10.609s] [ 51%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[10.653s] [ 51%] Built target status_interfaces__rosidl_typesupport_c
+[10.665s] [ 54%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.215s] [ 58%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[12.365s] [ 61%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.514s] [ 61%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[12.554s] [ 64%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.028s] [ 67%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[14.207s] [ 70%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[14.370s] [ 70%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[15.050s] running egg_info
+[15.050s] creating status_interfaces.egg-info
+[15.051s] writing status_interfaces.egg-info/PKG-INFO
+[15.051s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[15.051s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[15.053s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[15.062s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[15.068s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[15.109s] [ 70%] Built target ament_cmake_python_build_status_interfaces_egg
+[15.136s] [ 70%] Built target status_interfaces
+[15.160s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.362s] [ 74%] Built target status_interfaces__py
+[16.526s] [ 77%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o[0m
+[17.281s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/libstatus_interfaces__rosidl_generator_py.so[0m
+[17.348s] [ 80%] Built target status_interfaces__rosidl_generator_py
+[17.379s] [ 83%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.472s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.504s] [ 87%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[17.535s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.789s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[17.830s] [ 93%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext
+[17.893s] [ 96%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[18.085s] [100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[18.126s] [100%] Built target status_interfaces__rosidl_typesupport_c__pyext
+[18.174s] Invoked command in '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces -- -j2 -l2
+[18.218s] Invoking command in '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces
+[18.234s] -- Install configuration: ""
+[18.237s] -- Execute custom install script
+[18.239s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[18.258s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+[18.267s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+[18.298s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+[18.317s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[18.327s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+[18.339s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[18.348s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[18.355s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[18.369s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.384s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[18.396s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.408s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+[18.418s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+[18.423s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+[18.437s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+[18.443s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[18.452s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+[18.460s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[18.471s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.478s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[18.484s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[18.495s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[18.501s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[18.506s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[18.515s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[18.521s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[18.531s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py
+[18.541s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[18.554s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.559s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[18.571s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so
+[18.580s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py
+[18.589s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py
+[18.599s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c
+[18.609s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[18.618s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[18.623s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[18.633s] -- Up-to-date symlink: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[18.634s] -- Up-to-date symlink: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[18.634s] -- Up-to-date symlink: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[18.634s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[18.644s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[18.650s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[18.660s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[18.666s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[18.676s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[18.685s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/path.sh
+[18.690s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[18.700s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/local_setup.bash
+[18.705s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/local_setup.sh
+[18.715s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[18.721s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[18.728s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/package.dsv
+[18.738s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[18.746s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[18.755s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.770s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.800s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[18.808s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[18.817s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.825s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.833s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[18.839s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[18.848s] -- Symlinking: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/package.xml
+[18.857s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[18.859s] -- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[18.859s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[18.859s] -- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[18.859s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[18.860s] -- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[18.860s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[18.860s] -- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[18.860s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[18.861s] -- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.861s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[18.861s] -- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[18.861s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[18.862s] -- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[18.917s] Listing '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...
+[18.917s] Compiling '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py'...
+[18.917s] Listing '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...
+[18.917s] Compiling '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py'...
+[18.917s] Compiling '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py'...
+[18.921s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[18.921s] -- Set runtime path of "/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+[18.921s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[18.922s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[18.923s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[18.924s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.925s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[18.929s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.931s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[18.932s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[18.932s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[18.933s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.934s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.935s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[18.935s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.935s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[18.936s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[18.936s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[18.936s] -- Installing: /home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[18.940s] Invoked command in '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces

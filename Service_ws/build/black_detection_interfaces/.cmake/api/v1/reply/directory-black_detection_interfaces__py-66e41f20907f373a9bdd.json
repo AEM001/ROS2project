@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "black_detection_interfaces__py",
+		"source" : "/home/albert/practice/Service_ws/build/black_detection_interfaces/black_detection_interfaces__py"
+	}
+}

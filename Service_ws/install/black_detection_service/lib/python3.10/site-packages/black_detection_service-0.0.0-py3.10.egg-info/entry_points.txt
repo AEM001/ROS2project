@@ -1,0 +1,4 @@
+[console_scripts]
+black_detection_client = black_detection_service.black_detection_client:main
+black_detection_server = black_detection_service.black_detection_server:main
+

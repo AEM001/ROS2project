@@ -1,0 +1,38 @@
+[0.755s] Invoking command in '/home/albert/practice/TOPIC_PRACTICE_WS/src/status_publisher': PYTHONPATH=/home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/build install --record /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/install.log --single-version-externally-managed install_data
+[0.937s] running egg_info
+[0.938s] creating ../../build/status_publisher/status_publisher.egg-info
+[0.938s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[0.939s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[0.939s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[0.940s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[0.940s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[0.940s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.943s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.943s] adding license file 'LICENSE'
+[0.944s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[0.944s] running build
+[0.944s] running build_py
+[0.944s] creating /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/build
+[0.944s] creating /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/build/lib
+[0.944s] creating /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/build/lib/status_publisher
+[0.944s] copying status_publisher/sys_status_pub.py -> /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/build/lib/status_publisher
+[0.945s] copying status_publisher/__init__.py -> /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/build/lib/status_publisher
+[0.945s] running install
+[0.945s] running install_lib
+[0.946s] creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.946s] copying /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.946s] copying /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/lib/python3.10/site-packages/status_publisher
+[0.947s] byte-compiling /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/lib/python3.10/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-310.pyc
+[0.948s] byte-compiling /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/lib/python3.10/site-packages/status_publisher/__init__.py to __init__.cpython-310.pyc
+[0.948s] running install_data
+[0.948s] creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/share/ament_index
+[0.948s] creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/share/ament_index/resource_index
+[0.948s] creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/share/ament_index/resource_index/packages
+[0.948s] copying resource/status_publisher -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/share/ament_index/resource_index/packages
+[0.948s] copying package.xml -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/share/status_publisher
+[0.949s] running install_egg_info
+[0.950s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info
+[0.951s] running install_scripts
+[0.969s] Installing sys_status_pub script to /home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/lib/status_publisher
+[0.970s] writing list of installed files to '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/install.log'
+[1.011s] Invoked command in '/home/albert/practice/TOPIC_PRACTICE_WS/src/status_publisher' returned '0': PYTHONPATH=/home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/practice/TOPIC_PRACTICE_WS/install/status_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/build install --record /home/albert/practice/TOPIC_PRACTICE_WS/build/status_publisher/install.log --single-version-externally-managed install_data

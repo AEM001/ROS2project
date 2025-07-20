@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "status_interfaces__py",
+		"source" : "/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces/status_interfaces__py"
+	}
+}

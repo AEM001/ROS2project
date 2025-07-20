@@ -1,0 +1,11 @@
+setup.py
+black_detection_interfaces/__init__.py
+black_detection_interfaces.egg-info/PKG-INFO
+black_detection_interfaces.egg-info/SOURCES.txt
+black_detection_interfaces.egg-info/dependency_links.txt
+black_detection_interfaces.egg-info/top_level.txt
+black_detection_interfaces/msg/__init__.py
+black_detection_interfaces/msg/_black_object.py
+black_detection_interfaces/msg/_black_object_array.py
+black_detection_interfaces/srv/__init__.py
+black_detection_interfaces/srv/_detect_black_objects.py

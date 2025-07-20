@@ -1,0 +1,8 @@
+msg/BlackObject.idl
+msg/BlackObject.msg
+msg/BlackObjectArray.idl
+msg/BlackObjectArray.msg
+srv/DetectBlackObjects.idl
+srv/DetectBlackObjects.srv
+srv/DetectBlackObjects_Request.msg
+srv/DetectBlackObjects_Response.msg

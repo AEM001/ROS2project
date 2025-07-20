@@ -1,0 +1,24 @@
+[4.206s] Invoking command in '/home/albert/practice/TOPIC_PRACTICE_WS/src/status_subscriber': PYTHONPATH=/home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_subscriber build --build-base /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build install --record /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/install.log --single-version-externally-managed install_data
+[4.944s] running egg_info
+[4.954s] writing ../../build/status_subscriber/status_subscriber.egg-info/PKG-INFO
+[4.957s] writing dependency_links to ../../build/status_subscriber/status_subscriber.egg-info/dependency_links.txt
+[4.960s] writing entry points to ../../build/status_subscriber/status_subscriber.egg-info/entry_points.txt
+[4.961s] writing requirements to ../../build/status_subscriber/status_subscriber.egg-info/requires.txt
+[4.961s] writing top-level names to ../../build/status_subscriber/status_subscriber.egg-info/top_level.txt
+[4.964s] reading manifest file '../../build/status_subscriber/status_subscriber.egg-info/SOURCES.txt'
+[4.967s] writing manifest file '../../build/status_subscriber/status_subscriber.egg-info/SOURCES.txt'
+[4.968s] running build
+[4.968s] running build_py
+[4.968s] copying status_subscriber/sys_status_sub.py -> /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber
+[4.968s] running install
+[4.972s] running install_lib
+[4.973s] copying /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber/sys_status_sub.py -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber
+[4.974s] byte-compiling /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber/sys_status_sub.py to sys_status_sub.cpython-310.pyc
+[4.990s] running install_data
+[4.992s] running install_egg_info
+[4.999s] removing '/home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[5.002s] Copying ../../build/status_subscriber/status_subscriber.egg-info to /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber-0.0.0-py3.10.egg-info
+[5.002s] running install_scripts
+[5.035s] Installing sys_status_sub script to /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/status_subscriber
+[5.042s] writing list of installed files to '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/install.log'
+[5.109s] Invoked command in '/home/albert/practice/TOPIC_PRACTICE_WS/src/status_subscriber' returned '0': PYTHONPATH=/home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_subscriber build --build-base /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build install --record /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/install.log --single-version-externally-managed install_data

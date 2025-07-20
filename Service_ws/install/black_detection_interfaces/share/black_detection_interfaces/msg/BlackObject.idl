@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from black_detection_interfaces/msg/BlackObject.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Point32.idl"
+#include "std_msgs/msg/Header.idl"
+
+module black_detection_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "单个黑色物体的信息")
+    struct BlackObject {
+      @verbatim (language="comment", text=
+        "时间戳和坐标系")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "物体中心点坐标(像素坐标)")
+      geometry_msgs::msg::Point centroid;
+
+      @verbatim (language="comment", text=
+        "物体尺寸(宽度和高度)")
+      geometry_msgs::msg::Point32 size;
+
+      @verbatim (language="comment", text=
+        "物体面积(像素)")
+      float area;
+
+      @verbatim (language="comment", text=
+        "检测置信度(0-1)")
+      float confidence;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp

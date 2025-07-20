@@ -1,0 +1,491 @@
+[0.000000] (-) TimerEvent: {}
+[0.000907] (black_detection_interfaces) JobQueued: {'identifier': 'black_detection_interfaces', 'dependencies': OrderedDict()}
+[0.001061] (black_detection_interfaces) JobStarted: {'identifier': 'black_detection_interfaces'}
+[0.039012] (black_detection_interfaces) JobProgress: {'identifier': 'black_detection_interfaces', 'progress': 'cmake'}
+[0.040078] (black_detection_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/albert/practice/Service_ws/src/black_detection_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/albert/practice/Service_ws/install/black_detection_interfaces'], 'cwd': '/home/albert/practice/Service_ws/build/black_detection_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'albert'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albert'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/albert/practice'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1964'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2070'), ('BUNDLED_DEBUGPY_PATH', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4285'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albert'), ('JOURNAL_STREAM', '8:28859'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntumac:@/tmp/.ICE-unix/2046,unix/ubuntumac:/tmp/.ICE-unix/2046'), ('INVOCATION_ID', '1a1f1a6a87ad48f2bfd0ba951b23f760'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-668fe537546acd99.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IMSU92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-27fe56b2ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albert/practice/Service_ws/build/black_detection_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097594] (-) TimerEvent: {}
+[0.198868] (-) TimerEvent: {}
+[0.299719] (-) TimerEvent: {}
+[0.387454] (black_detection_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399823] (-) TimerEvent: {}
+[0.500926] (-) TimerEvent: {}
+[0.524733] (black_detection_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.544750] (black_detection_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601050] (-) TimerEvent: {}
+[0.702410] (-) TimerEvent: {}
+[0.712331] (black_detection_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.713215] (black_detection_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.714595] (black_detection_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.716979] (black_detection_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.734091] (black_detection_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.802641] (-) TimerEvent: {}
+[0.842710] (black_detection_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.845572] (black_detection_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.846038] (black_detection_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.846494] (black_detection_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.862821] (black_detection_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.902751] (-) TimerEvent: {}
+[1.003155] (-) TimerEvent: {}
+[1.078454] (black_detection_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.103211] (-) TimerEvent: {}
+[1.203774] (-) TimerEvent: {}
+[1.240677] (black_detection_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.251601] (black_detection_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.268676] (black_detection_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.303861] (-) TimerEvent: {}
+[1.327482] (black_detection_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.372955] (black_detection_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.402972] (black_detection_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.403887] (-) TimerEvent: {}
+[1.429562] (black_detection_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.503985] (-) TimerEvent: {}
+[1.604276] (-) TimerEvent: {}
+[1.704815] (-) TimerEvent: {}
+[1.805374] (-) TimerEvent: {}
+[1.809169] (black_detection_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.820880] (black_detection_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[1.823337] (black_detection_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[1.828338] (black_detection_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.905459] (-) TimerEvent: {}
+[2.006043] (-) TimerEvent: {}
+[2.106516] (-) TimerEvent: {}
+[2.151993] (black_detection_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.206636] (-) TimerEvent: {}
+[2.307370] (-) TimerEvent: {}
+[2.408728] (-) TimerEvent: {}
+[2.509434] (-) TimerEvent: {}
+[2.610381] (-) TimerEvent: {}
+[2.711340] (-) TimerEvent: {}
+[2.815270] (-) TimerEvent: {}
+[2.914128] (black_detection_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.915918] (-) TimerEvent: {}
+[2.975191] (black_detection_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.978535] (black_detection_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.016057] (-) TimerEvent: {}
+[3.035342] (black_detection_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.037143] (black_detection_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.037718] (black_detection_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.038036] (black_detection_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.061036] (black_detection_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.116194] (-) TimerEvent: {}
+[3.183986] (black_detection_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[3.190601] (black_detection_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[3.216318] (-) TimerEvent: {}
+[3.231802] (black_detection_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.317148] (-) TimerEvent: {}
+[3.345597] (black_detection_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.362955] (black_detection_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/albert/practice/Service_ws/build/black_detection_interfaces\n'}
+[3.381525] (black_detection_interfaces) CommandEnded: {'returncode': 0}
+[3.387525] (black_detection_interfaces) JobProgress: {'identifier': 'black_detection_interfaces', 'progress': 'build'}
+[3.387583] (black_detection_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/albert/practice/Service_ws/build/black_detection_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/albert/practice/Service_ws/build/black_detection_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'albert'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albert'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/albert/practice'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1964'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2070'), ('BUNDLED_DEBUGPY_PATH', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4285'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albert'), ('JOURNAL_STREAM', '8:28859'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntumac:@/tmp/.ICE-unix/2046,unix/ubuntumac:/tmp/.ICE-unix/2046'), ('INVOCATION_ID', '1a1f1a6a87ad48f2bfd0ba951b23f760'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-668fe537546acd99.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IMSU92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-27fe56b2ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albert/practice/Service_ws/build/black_detection_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.417327] (-) TimerEvent: {}
+[3.459052] (black_detection_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.518096] (-) TimerEvent: {}
+[3.618624] (-) TimerEvent: {}
+[3.719016] (-) TimerEvent: {}
+[3.819395] (-) TimerEvent: {}
+[3.919738] (-) TimerEvent: {}
+[4.020084] (-) TimerEvent: {}
+[4.120754] (-) TimerEvent: {}
+[4.221219] (-) TimerEvent: {}
+[4.321623] (-) TimerEvent: {}
+[4.422249] (-) TimerEvent: {}
+[4.522665] (-) TimerEvent: {}
+[4.571128] (black_detection_interfaces) StdoutLine: {'line': b'[  2%] Built target black_detection_interfaces__cpp\n'}
+[4.589488] (black_detection_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.622768] (-) TimerEvent: {}
+[4.723365] (-) TimerEvent: {}
+[4.823699] (-) TimerEvent: {}
+[4.924064] (-) TimerEvent: {}
+[5.024404] (-) TimerEvent: {}
+[5.124667] (-) TimerEvent: {}
+[5.224990] (-) TimerEvent: {}
+[5.325283] (-) TimerEvent: {}
+[5.379025] (black_detection_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/black_detection_interfaces/msg/detail/black_object__functions.c.o\x1b[0m\n'}
+[5.425386] (-) TimerEvent: {}
+[5.493250] (black_detection_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/black_detection_interfaces/msg/detail/black_object_array__functions.c.o\x1b[0m\n'}
+[5.525495] (-) TimerEvent: {}
+[5.534768] (black_detection_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/black_detection_interfaces/srv/detail/detect_black_objects__functions.c.o\x1b[0m\n'}
+[5.603654] (black_detection_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libblack_detection_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.625601] (-) TimerEvent: {}
+[5.637931] (black_detection_interfaces) StdoutLine: {'line': b'[ 12%] Built target black_detection_interfaces__rosidl_generator_c\n'}
+[5.655916] (black_detection_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_black_detection_interfaces\n'}
+[5.664996] (black_detection_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.725703] (-) TimerEvent: {}
+[5.826191] (-) TimerEvent: {}
+[5.926822] (-) TimerEvent: {}
+[6.027446] (-) TimerEvent: {}
+[6.106185] (black_detection_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/black_detection_interfaces/msg/black_object__type_support.cpp.o\x1b[0m\n'}
+[6.129084] (-) TimerEvent: {}
+[6.229724] (-) TimerEvent: {}
+[6.330605] (-) TimerEvent: {}
+[6.431299] (-) TimerEvent: {}
+[6.532201] (-) TimerEvent: {}
+[6.548329] (black_detection_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/black_detection_interfaces/msg/black_object_array__type_support.cpp.o\x1b[0m\n'}
+[6.632872] (-) TimerEvent: {}
+[6.733672] (-) TimerEvent: {}
+[6.792288] (black_detection_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/black_detection_interfaces/srv/detect_black_objects__type_support.cpp.o\x1b[0m\n'}
+[6.833796] (-) TimerEvent: {}
+[6.934367] (-) TimerEvent: {}
+[7.030495] (black_detection_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libblack_detection_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.034472] (-) TimerEvent: {}
+[7.064519] (black_detection_interfaces) StdoutLine: {'line': b'[ 23%] Built target black_detection_interfaces__rosidl_typesupport_cpp\n'}
+[7.071206] (black_detection_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.134983] (-) TimerEvent: {}
+[7.235995] (-) TimerEvent: {}
+[7.336858] (-) TimerEvent: {}
+[7.437688] (-) TimerEvent: {}
+[7.538381] (-) TimerEvent: {}
+[7.639337] (-) TimerEvent: {}
+[7.679540] (black_detection_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/black_detection_interfaces/msg/detail/black_object__type_support_c.cpp.o\x1b[0m\n'}
+[7.739461] (-) TimerEvent: {}
+[7.840214] (-) TimerEvent: {}
+[7.943305] (-) TimerEvent: {}
+[8.044918] (-) TimerEvent: {}
+[8.081869] (black_detection_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/black_detection_interfaces/msg/detail/black_object_array__type_support_c.cpp.o\x1b[0m\n'}
+[8.145034] (-) TimerEvent: {}
+[8.245669] (-) TimerEvent: {}
+[8.346155] (-) TimerEvent: {}
+[8.388556] (black_detection_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/black_detection_interfaces/srv/detail/detect_black_objects__type_support_c.cpp.o\x1b[0m\n'}
+[8.446274] (-) TimerEvent: {}
+[8.546596] (-) TimerEvent: {}
+[8.646894] (-) TimerEvent: {}
+[8.702873] (black_detection_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libblack_detection_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.747243] (-) TimerEvent: {}
+[8.780910] (black_detection_interfaces) StdoutLine: {'line': b'[ 34%] Built target black_detection_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.788269] (black_detection_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.847324] (-) TimerEvent: {}
+[8.947796] (-) TimerEvent: {}
+[9.048101] (-) TimerEvent: {}
+[9.148380] (-) TimerEvent: {}
+[9.249497] (-) TimerEvent: {}
+[9.279140] (black_detection_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/black_detection_interfaces/msg/detail/black_object__type_support.c.o\x1b[0m\n'}
+[9.337676] (black_detection_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/black_detection_interfaces/msg/detail/black_object_array__type_support.c.o\x1b[0m\n'}
+[9.349551] (-) TimerEvent: {}
+[9.392287] (black_detection_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/black_detection_interfaces/srv/detail/detect_black_objects__type_support.c.o\x1b[0m\n'}
+[9.436269] (black_detection_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libblack_detection_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.449770] (-) TimerEvent: {}
+[9.475042] (black_detection_interfaces) StdoutLine: {'line': b'[ 44%] Built target black_detection_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.481920] (black_detection_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.549943] (-) TimerEvent: {}
+[9.650496] (-) TimerEvent: {}
+[9.751128] (-) TimerEvent: {}
+[9.852256] (-) TimerEvent: {}
+[9.952826] (-) TimerEvent: {}
+[9.981657] (black_detection_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/black_detection_interfaces/msg/black_object__type_support.cpp.o\x1b[0m\n'}
+[10.017097] (black_detection_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/black_detection_interfaces/msg/black_object_array__type_support.cpp.o\x1b[0m\n'}
+[10.043686] (black_detection_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/black_detection_interfaces/srv/detect_black_objects__type_support.cpp.o\x1b[0m\n'}
+[10.052961] (-) TimerEvent: {}
+[10.072176] (black_detection_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libblack_detection_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.138420] (black_detection_interfaces) StdoutLine: {'line': b'[ 55%] Built target black_detection_interfaces__rosidl_typesupport_c\n'}
+[10.151420] (black_detection_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.153033] (-) TimerEvent: {}
+[10.253505] (-) TimerEvent: {}
+[10.354604] (-) TimerEvent: {}
+[10.455649] (-) TimerEvent: {}
+[10.556316] (-) TimerEvent: {}
+[10.657141] (-) TimerEvent: {}
+[10.757849] (-) TimerEvent: {}
+[10.858248] (-) TimerEvent: {}
+[10.959243] (-) TimerEvent: {}
+[11.015999] (black_detection_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/black_detection_interfaces/msg/detail/dds_fastrtps/black_object__type_support.cpp.o\x1b[0m\n'}
+[11.059382] (-) TimerEvent: {}
+[11.160442] (-) TimerEvent: {}
+[11.261192] (-) TimerEvent: {}
+[11.361795] (-) TimerEvent: {}
+[11.462631] (-) TimerEvent: {}
+[11.563388] (-) TimerEvent: {}
+[11.619638] (black_detection_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/black_detection_interfaces/msg/detail/dds_fastrtps/black_object_array__type_support.cpp.o\x1b[0m\n'}
+[11.663484] (-) TimerEvent: {}
+[11.764096] (-) TimerEvent: {}
+[11.864642] (-) TimerEvent: {}
+[11.965191] (-) TimerEvent: {}
+[11.982134] (black_detection_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/black_detection_interfaces/srv/detail/dds_fastrtps/detect_black_objects__type_support.cpp.o\x1b[0m\n'}
+[12.065517] (-) TimerEvent: {}
+[12.167193] (-) TimerEvent: {}
+[12.268425] (-) TimerEvent: {}
+[12.369905] (-) TimerEvent: {}
+[12.470908] (-) TimerEvent: {}
+[12.492072] (black_detection_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libblack_detection_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[12.571077] (-) TimerEvent: {}
+[12.572717] (black_detection_interfaces) StdoutLine: {'line': b'[ 65%] Built target black_detection_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[12.581670] (black_detection_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.671210] (-) TimerEvent: {}
+[12.771930] (-) TimerEvent: {}
+[12.872972] (-) TimerEvent: {}
+[12.973921] (-) TimerEvent: {}
+[13.074681] (-) TimerEvent: {}
+[13.094881] (black_detection_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/black_detection_interfaces/msg/detail/black_object__type_support.cpp.o\x1b[0m\n'}
+[13.174785] (-) TimerEvent: {}
+[13.275355] (-) TimerEvent: {}
+[13.377417] (-) TimerEvent: {}
+[13.439330] (black_detection_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/black_detection_interfaces/msg/detail/black_object_array__type_support.cpp.o\x1b[0m\n'}
+[13.477579] (-) TimerEvent: {}
+[13.578548] (-) TimerEvent: {}
+[13.679171] (-) TimerEvent: {}
+[13.780057] (-) TimerEvent: {}
+[13.789503] (black_detection_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/black_detection_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/black_detection_interfaces/srv/detail/detect_black_objects__type_support.cpp.o\x1b[0m\n'}
+[13.880197] (-) TimerEvent: {}
+[13.981008] (-) TimerEvent: {}
+[14.081764] (-) TimerEvent: {}
+[14.174084] (black_detection_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libblack_detection_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.181890] (-) TimerEvent: {}
+[14.282581] (-) TimerEvent: {}
+[14.297607] (black_detection_interfaces) StdoutLine: {'line': b'[ 76%] Built target black_detection_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[14.382684] (-) TimerEvent: {}
+[14.483415] (-) TimerEvent: {}
+[14.584479] (-) TimerEvent: {}
+[14.636950] (black_detection_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[14.638188] (black_detection_interfaces) StdoutLine: {'line': b'creating black_detection_interfaces.egg-info\n'}
+[14.638836] (black_detection_interfaces) StdoutLine: {'line': b'writing black_detection_interfaces.egg-info/PKG-INFO\n'}
+[14.640801] (black_detection_interfaces) StdoutLine: {'line': b'writing dependency_links to black_detection_interfaces.egg-info/dependency_links.txt\n'}
+[14.644391] (black_detection_interfaces) StdoutLine: {'line': b'writing top-level names to black_detection_interfaces.egg-info/top_level.txt\n'}
+[14.645265] (black_detection_interfaces) StdoutLine: {'line': b"writing manifest file 'black_detection_interfaces.egg-info/SOURCES.txt'\n"}
+[14.652960] (black_detection_interfaces) StdoutLine: {'line': b"reading manifest file 'black_detection_interfaces.egg-info/SOURCES.txt'\n"}
+[14.654063] (black_detection_interfaces) StdoutLine: {'line': b"writing manifest file 'black_detection_interfaces.egg-info/SOURCES.txt'\n"}
+[14.684611] (-) TimerEvent: {}
+[14.695410] (black_detection_interfaces) StdoutLine: {'line': b'[ 76%] Built target ament_cmake_python_build_black_detection_interfaces_egg\n'}
+[14.729373] (black_detection_interfaces) StdoutLine: {'line': b'[ 76%] Built target black_detection_interfaces\n'}
+[14.745538] (black_detection_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[14.784726] (-) TimerEvent: {}
+[14.885791] (-) TimerEvent: {}
+[14.987048] (-) TimerEvent: {}
+[15.088533] (-) TimerEvent: {}
+[15.189250] (-) TimerEvent: {}
+[15.290369] (-) TimerEvent: {}
+[15.391535] (-) TimerEvent: {}
+[15.492867] (-) TimerEvent: {}
+[15.594033] (-) TimerEvent: {}
+[15.695157] (-) TimerEvent: {}
+[15.797187] (-) TimerEvent: {}
+[15.898133] (-) TimerEvent: {}
+[15.998632] (-) TimerEvent: {}
+[16.099074] (-) TimerEvent: {}
+[16.103553] (black_detection_interfaces) StdoutLine: {'line': b'[ 78%] Built target black_detection_interfaces__py\n'}
+[16.121073] (black_detection_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_generator_py.dir/rosidl_generator_py/black_detection_interfaces/msg/_black_object_s.c.o\x1b[0m\n'}
+[16.199175] (-) TimerEvent: {}
+[16.299933] (-) TimerEvent: {}
+[16.300789] (black_detection_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_generator_py.dir/rosidl_generator_py/black_detection_interfaces/msg/_black_object_array_s.c.o\x1b[0m\n'}
+[16.400044] (-) TimerEvent: {}
+[16.419336] (black_detection_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_generator_py.dir/rosidl_generator_py/black_detection_interfaces/srv/_detect_black_objects_s.c.o\x1b[0m\n'}
+[16.500948] (-) TimerEvent: {}
+[16.602301] (-) TimerEvent: {}
+[16.666540] (black_detection_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/black_detection_interfaces/libblack_detection_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[16.702362] (-) TimerEvent: {}
+[16.710157] (black_detection_interfaces) StdoutLine: {'line': b'[ 87%] Built target black_detection_interfaces__rosidl_generator_py\n'}
+[16.729930] (black_detection_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/black_detection_interfaces/_black_detection_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.802479] (-) TimerEvent: {}
+[16.841188] (black_detection_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[16.876714] (black_detection_interfaces) StdoutLine: {'line': b'[ 91%] Built target black_detection_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.892279] (black_detection_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/black_detection_interfaces/_black_detection_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.902578] (-) TimerEvent: {}
+[16.995943] (black_detection_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[17.002712] (-) TimerEvent: {}
+[17.036091] (black_detection_interfaces) StdoutLine: {'line': b'[ 95%] Built target black_detection_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[17.052518] (black_detection_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/black_detection_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/black_detection_interfaces/_black_detection_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.102831] (-) TimerEvent: {}
+[17.156785] (black_detection_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[17.193884] (black_detection_interfaces) StdoutLine: {'line': b'[100%] Built target black_detection_interfaces__rosidl_typesupport_c__pyext\n'}
+[17.203737] (-) TimerEvent: {}
+[17.227918] (black_detection_interfaces) CommandEnded: {'returncode': 0}
+[17.231820] (black_detection_interfaces) JobProgress: {'identifier': 'black_detection_interfaces', 'progress': 'install'}
+[17.242834] (black_detection_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/albert/practice/Service_ws/build/black_detection_interfaces'], 'cwd': '/home/albert/practice/Service_ws/build/black_detection_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'albert'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/albert'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/albert/practice'), ('TERM_PROGRAM_VERSION', '1.102.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1964'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2070'), ('BUNDLED_DEBUGPY_PATH', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4285'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'albert'), ('JOURNAL_STREAM', '8:28859'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'albert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntumac:@/tmp/.ICE-unix/2046,unix/ubuntumac:/tmp/.ICE-unix/2046'), ('INVOCATION_ID', '1a1f1a6a87ad48f2bfd0ba951b23f760'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/albert/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-668fe537546acd99.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IMSU92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-27fe56b2ff.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/albert/practice/Service_ws/build/black_detection_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.254139] (black_detection_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.254660] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/ament_index/resource_index/rosidl_interfaces/black_detection_interfaces\n'}
+[17.254922] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces\n'}
+[17.255115] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv\n'}
+[17.255235] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail\n'}
+[17.255336] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__functions.h\n'}
+[17.255495] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__functions.c\n'}
+[17.255644] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__type_support.h\n'}
+[17.255767] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__struct.h\n'}
+[17.255958] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detect_black_objects.h\n'}
+[17.256083] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg\n'}
+[17.256177] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.256269] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail\n'}
+[17.256405] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__functions.c\n'}
+[17.256561] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__type_support.h\n'}
+[17.256699] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__struct.h\n'}
+[17.256806] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__functions.h\n'}
+[17.256934] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__struct.h\n'}
+[17.257041] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__functions.h\n'}
+[17.257144] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__functions.c\n'}
+[17.257294] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__type_support.h\n'}
+[17.257414] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/black_object.h\n'}
+[17.257531] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/black_object_array.h\n'}
+[17.257727] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/environment/library_path.sh\n'}
+[17.257884] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/environment/library_path.dsv\n'}
+[17.258136] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_generator_c.so\n'}
+[17.258518] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_generator_c.so" to ""\n'}
+[17.258622] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces\n'}
+[17.258707] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv\n'}
+[17.258782] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail\n'}
+[17.258889] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__rosidl_typesupport_fastrtps_c.h\n'}
+[17.259003] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg\n'}
+[17.259079] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.259187] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail\n'}
+[17.259273] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__rosidl_typesupport_fastrtps_c.h\n'}
+[17.259376] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__rosidl_typesupport_fastrtps_c.h\n'}
+[17.259552] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[17.259831] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.259929] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces\n'}
+[17.260017] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv\n'}
+[17.260127] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail\n'}
+[17.260202] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__rosidl_typesupport_introspection_c.h\n'}
+[17.260321] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__type_support.c\n'}
+[17.260489] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg\n'}
+[17.260587] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.260724] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail\n'}
+[17.260798] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__rosidl_typesupport_introspection_c.h\n'}
+[17.260927] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__rosidl_typesupport_introspection_c.h\n'}
+[17.261057] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__type_support.c\n'}
+[17.261228] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__type_support.c\n'}
+[17.261759] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[17.262258] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.262364] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_c.so\n'}
+[17.262646] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[17.262738] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces\n'}
+[17.262843] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv\n'}
+[17.262944] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detect_black_objects.hpp\n'}
+[17.263103] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail\n'}
+[17.263206] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__type_support.hpp\n'}
+[17.263326] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__struct.hpp\n'}
+[17.263490] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__traits.hpp\n'}
+[17.263681] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__builder.hpp\n'}
+[17.263824] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg\n'}
+[17.263988] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/black_object.hpp\n'}
+[17.264127] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/black_object_array.hpp\n'}
+[17.264265] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail\n'}
+[17.264374] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__type_support.hpp\n'}
+[17.264518] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__struct.hpp\n'}
+[17.264684] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__type_support.hpp\n'}
+[17.264845] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__traits.hpp\n'}
+[17.264988] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__builder.hpp\n'}
+[17.265112] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__struct.hpp\n'}
+[17.265264] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__builder.hpp\n'}
+[17.265408] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__traits.hpp\n'}
+[17.265646] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[17.265828] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces\n'}
+[17.265926] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv\n'}
+[17.266026] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail\n'}
+[17.266131] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/dds_fastrtps\n'}
+[17.266266] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.266473] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg\n'}
+[17.266577] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail\n'}
+[17.266650] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/dds_fastrtps\n'}
+[17.266808] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.266946] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.267152] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.267391] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.268313] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.268450] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces\n'}
+[17.268555] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv\n'}
+[17.268633] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail\n'}
+[17.268713] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.268851] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/srv/detail/detect_black_objects__type_support.cpp\n'}
+[17.269036] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg\n'}
+[17.269118] (black_detection_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail\n'}
+[17.269208] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.269345] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[17.269535] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object_array__type_support.cpp\n'}
+[17.269689] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/include/black_detection_interfaces/black_detection_interfaces/msg/detail/black_object__type_support.cpp\n'}
+[17.271478] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[17.272432] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.272583] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_cpp.so\n'}
+[17.272917] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[17.273030] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/environment/pythonpath.sh\n'}
+[17.273208] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/environment/pythonpath.dsv\n'}
+[17.273903] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces-0.0.0-py3.10.egg-info\n'}
+[17.274090] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[17.274205] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[17.274337] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[17.274466] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[17.274623] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces\n'}
+[17.274778] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/_black_detection_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[17.274991] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/libblack_detection_interfaces__rosidl_generator_py.so\n'}
+[17.275220] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.275394] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.275577] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/srv\n'}
+[17.275723] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/srv/__init__.py\n'}
+[17.275926] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/srv/_detect_black_objects_s.c\n'}
+[17.276145] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/srv/_detect_black_objects.py\n'}
+[17.276305] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/msg\n'}
+[17.276428] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/msg/_black_object_s.c\n'}
+[17.276591] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/msg/_black_object_array.py\n'}
+[17.276734] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/msg/__init__.py\n'}
+[17.276867] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/msg/_black_object.py\n'}
+[17.276992] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/msg/_black_object_array_s.c\n'}
+[17.277110] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/_black_detection_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[17.277280] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/__init__.py\n'}
+[17.277389] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.277569] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/_black_detection_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[17.303891] (-) TimerEvent: {}
+[17.344246] (black_detection_interfaces) StdoutLine: {'line': b"Listing '/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces'...\n"}
+[17.344428] (black_detection_interfaces) StdoutLine: {'line': b"Compiling '/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/__init__.py'...\n"}
+[17.344490] (black_detection_interfaces) StdoutLine: {'line': b"Listing '/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/msg'...\n"}
+[17.344525] (black_detection_interfaces) StdoutLine: {'line': b"Compiling '/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/msg/__init__.py'...\n"}
+[17.344557] (black_detection_interfaces) StdoutLine: {'line': b"Compiling '/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/msg/_black_object.py'...\n"}
+[17.344589] (black_detection_interfaces) StdoutLine: {'line': b"Compiling '/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/msg/_black_object_array.py'...\n"}
+[17.344621] (black_detection_interfaces) StdoutLine: {'line': b"Listing '/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/srv'...\n"}
+[17.344651] (black_detection_interfaces) StdoutLine: {'line': b"Compiling '/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/srv/__init__.py'...\n"}
+[17.344681] (black_detection_interfaces) StdoutLine: {'line': b"Compiling '/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/srv/_detect_black_objects.py'...\n"}
+[17.354851] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.355034] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[17.355168] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.355364] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[17.355494] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[17.355652] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/local/lib/python3.10/dist-packages/black_detection_interfaces/black_detection_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[17.355705] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_generator_py.so\n'}
+[17.355941] (black_detection_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/albert/practice/Service_ws/install/black_detection_interfaces/lib/libblack_detection_interfaces__rosidl_generator_py.so" to ""\n'}
+[17.356024] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/msg/BlackObject.idl\n'}
+[17.356109] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/msg/BlackObjectArray.idl\n'}
+[17.356252] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/srv/DetectBlackObjects.idl\n'}
+[17.356369] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/msg/BlackObject.msg\n'}
+[17.356463] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/msg/BlackObjectArray.msg\n'}
+[17.356580] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/srv/DetectBlackObjects.srv\n'}
+[17.356678] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/srv/DetectBlackObjects_Request.msg\n'}
+[17.356749] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/srv/DetectBlackObjects_Response.msg\n'}
+[17.363397] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/ament_index/resource_index/package_run_dependencies/black_detection_interfaces\n'}
+[17.363753] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/ament_index/resource_index/parent_prefix_path/black_detection_interfaces\n'}
+[17.363798] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/environment/ament_prefix_path.sh\n'}
+[17.364301] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/environment/ament_prefix_path.dsv\n'}
+[17.365184] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/environment/path.sh\n'}
+[17.365544] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/environment/path.dsv\n'}
+[17.365680] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/local_setup.bash\n'}
+[17.367538] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/local_setup.sh\n'}
+[17.367769] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/local_setup.zsh\n'}
+[17.367842] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/local_setup.dsv\n'}
+[17.367922] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/package.dsv\n'}
+[17.368036] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/ament_index/resource_index/packages/black_detection_interfaces\n'}
+[17.368146] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/export_black_detection_interfaces__rosidl_generator_cExport.cmake\n'}
+[17.368271] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/export_black_detection_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.368389] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/export_black_detection_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[17.368481] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/export_black_detection_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[17.368581] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/black_detection_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.368695] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/black_detection_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.368812] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/black_detection_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[17.368898] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/black_detection_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.368974] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/export_black_detection_interfaces__rosidl_generator_cppExport.cmake\n'}
+[17.369045] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/export_black_detection_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[17.369121] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/export_black_detection_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[17.369206] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/black_detection_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.369305] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/black_detection_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.369420] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/black_detection_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[17.369503] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/black_detection_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.369571] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/export_black_detection_interfaces__rosidl_generator_pyExport.cmake\n'}
+[17.369649] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/export_black_detection_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[17.369742] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[17.369828] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.369910] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.369985] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.370086] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.370198] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.370276] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.370391] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/black_detection_interfacesConfig.cmake\n'}
+[17.370472] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/cmake/black_detection_interfacesConfig-version.cmake\n'}
+[17.370544] (black_detection_interfaces) StdoutLine: {'line': b'-- Installing: /home/albert/practice/Service_ws/install/black_detection_interfaces/share/black_detection_interfaces/package.xml\n'}
+[17.381426] (black_detection_interfaces) CommandEnded: {'returncode': 0}
+[17.403926] (-) TimerEvent: {}
+[17.496627] (black_detection_interfaces) JobEnded: {'identifier': 'black_detection_interfaces', 'rc': 0}
+[17.504013] (-) TimerEvent: {}
+[17.504245] (-) EventReactorShutdown: {}

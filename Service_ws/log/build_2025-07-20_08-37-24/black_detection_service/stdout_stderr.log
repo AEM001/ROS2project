@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/black_detection_service/black_detection_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/black_detection_service/black_detection_service.egg-info/dependency_links.txt
+writing entry points to ../../build/black_detection_service/black_detection_service.egg-info/entry_points.txt
+writing requirements to ../../build/black_detection_service/black_detection_service.egg-info/requires.txt
+writing top-level names to ../../build/black_detection_service/black_detection_service.egg-info/top_level.txt
+reading manifest file '../../build/black_detection_service/black_detection_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/black_detection_service/black_detection_service.egg-info/SOURCES.txt'
+running build
+running build_py
+copying black_detection_service/black_detection_server.py -> /home/albert/practice/Service_ws/build/black_detection_service/build/lib/black_detection_service
+running install
+running install_lib
+copying /home/albert/practice/Service_ws/build/black_detection_service/build/lib/black_detection_service/black_detection_server.py -> /home/albert/practice/Service_ws/install/black_detection_service/lib/python3.10/site-packages/black_detection_service
+byte-compiling /home/albert/practice/Service_ws/install/black_detection_service/lib/python3.10/site-packages/black_detection_service/black_detection_server.py to black_detection_server.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/albert/practice/Service_ws/install/black_detection_service/lib/python3.10/site-packages/black_detection_service-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/black_detection_service/black_detection_service.egg-info to /home/albert/practice/Service_ws/install/black_detection_service/lib/python3.10/site-packages/black_detection_service-0.0.0-py3.10.egg-info
+running install_scripts
+Installing black_detection_server script to /home/albert/practice/Service_ws/install/black_detection_service/lib/black_detection_service
+writing list of installed files to '/home/albert/practice/Service_ws/build/black_detection_service/install.log'

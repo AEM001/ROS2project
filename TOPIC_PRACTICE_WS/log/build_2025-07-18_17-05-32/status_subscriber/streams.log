@@ -1,0 +1,37 @@
+[1.688s] Invoking command in '/home/albert/practice/TOPIC_PRACTICE_WS/src/status_subscriber': AMENT_PREFIX_PATH=/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces LD_LIBRARY_PATH=/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages:/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_subscriber build --build-base /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build install --record /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/install.log --single-version-externally-managed install_data
+[2.168s] running egg_info
+[2.172s] creating ../../build/status_subscriber/status_subscriber.egg-info
+[2.173s] writing ../../build/status_subscriber/status_subscriber.egg-info/PKG-INFO
+[2.175s] writing dependency_links to ../../build/status_subscriber/status_subscriber.egg-info/dependency_links.txt
+[2.176s] writing entry points to ../../build/status_subscriber/status_subscriber.egg-info/entry_points.txt
+[2.176s] writing requirements to ../../build/status_subscriber/status_subscriber.egg-info/requires.txt
+[2.177s] writing top-level names to ../../build/status_subscriber/status_subscriber.egg-info/top_level.txt
+[2.177s] writing manifest file '../../build/status_subscriber/status_subscriber.egg-info/SOURCES.txt'
+[2.183s] reading manifest file '../../build/status_subscriber/status_subscriber.egg-info/SOURCES.txt'
+[2.188s] writing manifest file '../../build/status_subscriber/status_subscriber.egg-info/SOURCES.txt'
+[2.189s] running build
+[2.189s] running build_py
+[2.189s] creating /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build
+[2.189s] creating /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib
+[2.189s] creating /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber
+[2.189s] copying status_subscriber/subscription.py -> /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber
+[2.189s] copying status_subscriber/__init__.py -> /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber
+[2.189s] running install
+[2.190s] running install_lib
+[2.192s] creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber
+[2.192s] copying /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber/subscription.py -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber
+[2.192s] copying /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build/lib/status_subscriber/__init__.py -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber
+[2.193s] byte-compiling /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber/subscription.py to subscription.cpython-310.pyc
+[2.193s] byte-compiling /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber/__init__.py to __init__.cpython-310.pyc
+[2.193s] running install_data
+[2.193s] creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/share/ament_index
+[2.193s] creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/share/ament_index/resource_index
+[2.194s] creating /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/share/ament_index/resource_index/packages
+[2.194s] copying resource/status_subscriber -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/share/ament_index/resource_index/packages
+[2.194s] copying package.xml -> /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/share/status_subscriber
+[2.194s] running install_egg_info
+[2.195s] Copying ../../build/status_subscriber/status_subscriber.egg-info to /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages/status_subscriber-0.0.0-py3.10.egg-info
+[2.195s] running install_scripts
+[2.250s] Installing sys_status_sub script to /home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/status_subscriber
+[2.252s] writing list of installed files to '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/install.log'
+[2.334s] Invoked command in '/home/albert/practice/TOPIC_PRACTICE_WS/src/status_subscriber' returned '0': AMENT_PREFIX_PATH=/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces LD_LIBRARY_PATH=/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/practice/TOPIC_PRACTICE_WS/install/status_subscriber/lib/python3.10/site-packages:/home/albert/practice/TOPIC_PRACTICE_WS/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_subscriber build --build-base /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/build install --record /home/albert/practice/TOPIC_PRACTICE_WS/build/status_subscriber/install.log --single-version-externally-managed install_data

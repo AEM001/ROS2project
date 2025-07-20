@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from black_detection_interfaces/msg/BlackObjectArray.msg
+// generated code does not contain a copyright notice
+
+#include "black_detection_interfaces/msg/BlackObject.idl"
+#include "std_msgs/msg/Header.idl"
+
+module black_detection_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "黑色物体数组消息")
+    struct BlackObjectArray {
+      @verbatim (language="comment", text=
+        "时间戳和坐标系")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "黑色物体数组")
+      sequence<black_detection_interfaces::msg::BlackObject> objects;
+
+      @verbatim (language="comment", text=
+        "物体数量")
+      int32 count;
+    };
+  };
+};

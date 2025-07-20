@@ -1,0 +1,4 @@
+Invoking command in '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces -- -j2 -l2
+Invoked command in '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces -- -j2 -l2
+Invoking command in '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces
+Invoked command in '/home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/albert/practice/TOPIC_PRACTICE_WS/build/status_interfaces
